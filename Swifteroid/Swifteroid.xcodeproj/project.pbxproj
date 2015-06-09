@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CCD55B61B27159F0068FFE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD55B51B27159F0068FFE9 /* AppDelegate.swift */; };
+		4CCD55B81B27159F0068FFE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD55B71B27159F0068FFE9 /* ViewController.swift */; };
+		4CCD55BB1B27159F0068FFE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCD55B91B27159F0068FFE9 /* Main.storyboard */; };
+		4CCD55BD1B27159F0068FFE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCD55BC1B27159F0068FFE9 /* Images.xcassets */; };
+		4CCD55CC1B27159F0068FFE9 /* SwifteroidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD55CB1B27159F0068FFE9 /* SwifteroidTests.swift */; };
+		4CCD55D81B2725410068FFE9 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CCD55D51B27161F0068FFE9 /* ionicons.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CCD55C61B27159F0068FFE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCD55A81B27159F0068FFE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCD55AF1B27159F0068FFE9;
+			remoteInfo = Swifteroid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CCD55B01B27159F0068FFE9 /* Swifteroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swifteroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCD55B41B27159F0068FFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCD55B51B27159F0068FFE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CCD55B71B27159F0068FFE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CCD55BA1B27159F0068FFE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CCD55BC1B27159F0068FFE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CCD55C51B27159F0068FFE9 /* SwifteroidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifteroidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCD55CA1B27159F0068FFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCD55CB1B27159F0068FFE9 /* SwifteroidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifteroidTests.swift; sourceTree = "<group>"; };
+		4CCD55D51B27161F0068FFE9 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCD55AD1B27159F0068FFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCD55C21B27159F0068FFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CCD55A71B27159F0068FFE9 = {
+			isa = PBXGroup;
+			children = (
+				4CCD55B21B27159F0068FFE9 /* Swifteroid */,
+				4CCD55C81B27159F0068FFE9 /* SwifteroidTests */,
+				4CCD55B11B27159F0068FFE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCD55B11B27159F0068FFE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCD55B01B27159F0068FFE9 /* Swifteroid.app */,
+				4CCD55C51B27159F0068FFE9 /* SwifteroidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCD55B21B27159F0068FFE9 /* Swifteroid */ = {
+			isa = PBXGroup;
+			children = (
+				4CCD55D51B27161F0068FFE9 /* ionicons.ttf */,
+				4CCD55B51B27159F0068FFE9 /* AppDelegate.swift */,
+				4CCD55B71B27159F0068FFE9 /* ViewController.swift */,
+				4CCD55B91B27159F0068FFE9 /* Main.storyboard */,
+				4CCD55BC1B27159F0068FFE9 /* Images.xcassets */,
+				4CCD55B31B27159F0068FFE9 /* Supporting Files */,
+			);
+			path = Swifteroid;
+			sourceTree = "<group>";
+		};
+		4CCD55B31B27159F0068FFE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CCD55B41B27159F0068FFE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CCD55C81B27159F0068FFE9 /* SwifteroidTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCD55CB1B27159F0068FFE9 /* SwifteroidTests.swift */,
+				4CCD55C91B27159F0068FFE9 /* Supporting Files */,
+			);
+			path = SwifteroidTests;
+			sourceTree = "<group>";
+		};
+		4CCD55C91B27159F0068FFE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CCD55CA1B27159F0068FFE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CCD55AF1B27159F0068FFE9 /* Swifteroid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCD55CF1B27159F0068FFE9 /* Build configuration list for PBXNativeTarget "Swifteroid" */;
+			buildPhases = (
+				4CCD55AC1B27159F0068FFE9 /* Sources */,
+				4CCD55AD1B27159F0068FFE9 /* Frameworks */,
+				4CCD55AE1B27159F0068FFE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swifteroid;
+			productName = Swifteroid;
+			productReference = 4CCD55B01B27159F0068FFE9 /* Swifteroid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CCD55C41B27159F0068FFE9 /* SwifteroidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCD55D21B27159F0068FFE9 /* Build configuration list for PBXNativeTarget "SwifteroidTests" */;
+			buildPhases = (
+				4CCD55C11B27159F0068FFE9 /* Sources */,
+				4CCD55C21B27159F0068FFE9 /* Frameworks */,
+				4CCD55C31B27159F0068FFE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCD55C71B27159F0068FFE9 /* PBXTargetDependency */,
+			);
+			name = SwifteroidTests;
+			productName = SwifteroidTests;
+			productReference = 4CCD55C51B27159F0068FFE9 /* SwifteroidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCD55A81B27159F0068FFE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Eugen Pirogoff";
+				TargetAttributes = {
+					4CCD55AF1B27159F0068FFE9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					4CCD55C41B27159F0068FFE9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 4CCD55AF1B27159F0068FFE9;
+					};
+				};
+			};
+			buildConfigurationList = 4CCD55AB1B27159F0068FFE9 /* Build configuration list for PBXProject "Swifteroid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CCD55A71B27159F0068FFE9;
+			productRefGroup = 4CCD55B11B27159F0068FFE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCD55AF1B27159F0068FFE9 /* Swifteroid */,
+				4CCD55C41B27159F0068FFE9 /* SwifteroidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCD55AE1B27159F0068FFE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCD55D81B2725410068FFE9 /* ionicons.ttf in Resources */,
+				4CCD55BB1B27159F0068FFE9 /* Main.storyboard in Resources */,
+				4CCD55BD1B27159F0068FFE9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCD55C31B27159F0068FFE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCD55AC1B27159F0068FFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCD55B81B27159F0068FFE9 /* ViewController.swift in Sources */,
+				4CCD55B61B27159F0068FFE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCD55C11B27159F0068FFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCD55CC1B27159F0068FFE9 /* SwifteroidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CCD55C71B27159F0068FFE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCD55AF1B27159F0068FFE9 /* Swifteroid */;
+			targetProxy = 4CCD55C61B27159F0068FFE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CCD55B91B27159F0068FFE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCD55BA1B27159F0068FFE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CCD55CD1B27159F0068FFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CCD55CE1B27159F0068FFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CCD55D01B27159F0068FFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swifteroid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CCD55D11B27159F0068FFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Swifteroid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CCD55D31B27159F0068FFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwifteroidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifteroid.app/Swifteroid";
+			};
+			name = Debug;
+		};
+		4CCD55D41B27159F0068FFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwifteroidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifteroid.app/Swifteroid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCD55AB1B27159F0068FFE9 /* Build configuration list for PBXProject "Swifteroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCD55CD1B27159F0068FFE9 /* Debug */,
+				4CCD55CE1B27159F0068FFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCD55CF1B27159F0068FFE9 /* Build configuration list for PBXNativeTarget "Swifteroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCD55D01B27159F0068FFE9 /* Debug */,
+				4CCD55D11B27159F0068FFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CCD55D21B27159F0068FFE9 /* Build configuration list for PBXNativeTarget "SwifteroidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCD55D31B27159F0068FFE9 /* Debug */,
+				4CCD55D41B27159F0068FFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CCD55A81B27159F0068FFE9 /* Project object */;
+}
