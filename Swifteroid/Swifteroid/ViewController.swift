@@ -66,6 +66,8 @@ class ViewController: UIViewController {
             exposure = 1.0
         }
         
+        startExposureDate = nil
+        
         swifteroid.captureSingleStillImage(exposure) { (image, metadata) -> Void in
             self.lastPhoto = image
             self.previewPhoto(image)

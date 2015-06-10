@@ -39,13 +39,10 @@ class SwifteroidController {
             }
         }
         
-        var error:NSError?
-        
         let possibleCameraInput: AnyObject?
         do {
             possibleCameraInput = try AVCaptureDeviceInput(device: backCameraDevice)
-        } catch var error1 as NSError {
-            error = error1
+        } catch _ as NSError {
             possibleCameraInput = nil
         }
         if let backCameraInput = possibleCameraInput as? AVCaptureDeviceInput {
