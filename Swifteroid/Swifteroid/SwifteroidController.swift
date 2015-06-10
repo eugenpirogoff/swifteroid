@@ -41,7 +41,13 @@ class SwifteroidController {
         
         var error:NSError?
         
-        let possibleCameraInput: AnyObject? = AVCaptureDeviceInput.deviceInputWithDevice(backCameraDevice, error: &error)
+        let possibleCameraInput: AnyObject?
+        do {
+            possibleCameraInput = try AVCaptureDeviceInput(device: backCameraDevice)
+        } catch var error1 as NSError {
+            error = error1
+            possibleCameraInput = nil
+        }
         if let backCameraInput = possibleCameraInput as? AVCaptureDeviceInput {
             if self.session.canAddInput(backCameraInput) {
                 self.session.addInput(backCameraInput)
