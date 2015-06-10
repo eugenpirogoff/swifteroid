@@ -13,6 +13,7 @@
 		4CCD55BD1B27159F0068FFE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCD55BC1B27159F0068FFE9 /* Images.xcassets */; };
 		4CCD55CC1B27159F0068FFE9 /* SwifteroidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD55CB1B27159F0068FFE9 /* SwifteroidTests.swift */; };
 		4CCD55D81B2725410068FFE9 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CCD55D51B27161F0068FFE9 /* ionicons.ttf */; };
+		4CCD55DA1B283DBA0068FFE9 /* SwifteroidController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD55D91B283DBA0068FFE9 /* SwifteroidController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4CCD55CA1B27159F0068FFE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CCD55CB1B27159F0068FFE9 /* SwifteroidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifteroidTests.swift; sourceTree = "<group>"; };
 		4CCD55D51B27161F0068FFE9 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		4CCD55D91B283DBA0068FFE9 /* SwifteroidController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifteroidController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				4CCD55D51B27161F0068FFE9 /* ionicons.ttf */,
 				4CCD55B51B27159F0068FFE9 /* AppDelegate.swift */,
 				4CCD55B71B27159F0068FFE9 /* ViewController.swift */,
+				4CCD55D91B283DBA0068FFE9 /* SwifteroidController.swift */,
 				4CCD55B91B27159F0068FFE9 /* Main.storyboard */,
 				4CCD55BC1B27159F0068FFE9 /* Images.xcassets */,
 				4CCD55B31B27159F0068FFE9 /* Supporting Files */,
@@ -156,11 +159,13 @@
 		4CCD55A81B27159F0068FFE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Eugen Pirogoff";
 				TargetAttributes = {
 					4CCD55AF1B27159F0068FFE9 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 6E5RVX7ELK;
 					};
 					4CCD55C41B27159F0068FFE9 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -214,6 +219,7 @@
 			files = (
 				4CCD55B81B27159F0068FFE9 /* ViewController.swift in Sources */,
 				4CCD55B61B27159F0068FFE9 /* AppDelegate.swift in Sources */,
+				4CCD55DA1B283DBA0068FFE9 /* SwifteroidController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +274,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -333,9 +340,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Swifteroid/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.pirogoff.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -345,9 +354,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Swifteroid/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.pirogoff.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -365,7 +376,9 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SwifteroidTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.pirogoff.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifteroid.app/Swifteroid";
 			};
@@ -380,7 +393,9 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SwifteroidTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.pirogoff.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifteroid.app/Swifteroid";
 			};
@@ -405,6 +420,7 @@
 				4CCD55D11B27159F0068FFE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CCD55D21B27159F0068FFE9 /* Build configuration list for PBXNativeTarget "SwifteroidTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +429,7 @@
 				4CCD55D41B27159F0068FFE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
