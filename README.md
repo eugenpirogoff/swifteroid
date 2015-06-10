@@ -6,7 +6,8 @@ Swifteroid is a Photo Application written in Swift in which the exposure button 
 ![image](https://raw.githubusercontent.com/eugenpirogoff/swifteroid/master/images/IMG_2456.jpg)
 
 
-Example
+**Example**
+
 ![image](https://raw.githubusercontent.com/eugenpirogoff/swifteroid/master/images/IMG_2457.jpg)
 ![image](https://raw.githubusercontent.com/eugenpirogoff/swifteroid/master/images/IMG_2458.jpg)
 ![image](https://raw.githubusercontent.com/eugenpirogoff/swifteroid/master/images/IMG_2459.jpg)
