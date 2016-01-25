@@ -75,8 +75,7 @@ class SwifteroidController {
                 if error == nil {
                     let imageData = AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(sampleBuffer)
                     
-                    let metadata:NSDictionary = CMCopyDictionaryOfAttachments(nil, sampleBuffer, CMAttachmentMode(kCMAttachmentMode_ShouldPropagate))!.takeUnretainedValue()
-                    
+                    let metadata:NSDictionary = CMCopyDictionaryOfAttachments(nil, sampleBuffer, CMAttachmentMode(kCMAttachmentMode_ShouldPropagate))!                    
                     if let image = UIImage(data: imageData) {
                         dispatch_async(dispatch_get_main_queue()) { () -> Void in
                             handler(image: image, metadata:metadata)

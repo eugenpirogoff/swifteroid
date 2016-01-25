@@ -41,9 +41,8 @@ class ViewController: UIViewController {
     @IBAction func savePreviewPhoto(sender: AnyObject) {
         if let image = lastPhoto {
             savePreviewdPhoto(image)
-            print("", appendNewline: false)
         } else {
-            print("No Phot to Save! \n", appendNewline: false)
+            print("No photo to save!")
         }
         clearPreview()
         lastPhoto = nil
